@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>0.1.0</Version>
-    <PackageReleaseNotes>initial release</PackageReleaseNotes>
+    <Version>0.0.3</Version>
+    <PackageReleaseNotes>fix ImportantDegenerateDimension_OnFactDim tags and update STCEx to v2.2.2</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
