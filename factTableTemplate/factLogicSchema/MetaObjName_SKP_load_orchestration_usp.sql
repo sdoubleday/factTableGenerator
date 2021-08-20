@@ -9,7 +9,7 @@ INSERT INTO [factFinalSchema].[MetaObjName]
 ,
  [SK_Date_RP_RolePlay]	/*SurrogateKey_RolePlay_ReplacementPoint|Date|RolePlay|,*/
 ,
- [ImportantDegenerateDimension_OnFactDim]	/*DegenerateDimensionAttribute_ReplacementPoint|ImportantDegenerateDimension|,*/
+ [ImportantDegenerateDimension_OnFactDim]	/*DegenerateDimensionAttribute_ReplacementPoint|ImportantDegenerateDimension_OnFactDim|,*/
 ,
  [ImportantFact]	/*FactColumn_ReplacementPoint|ImportantFact|,*/
 ,
@@ -20,7 +20,7 @@ SELECT
 ,
  [SK_Date_RP_RolePlay]	/*SurrogateKey_RolePlay_ReplacementPoint|Date|RolePlay|,*/
 ,
- [ImportantDegenerateDimension_OnFactDim]	/*DegenerateDimensionAttribute_ReplacementPoint|ImportantDegenerateDimension|,*/
+ [ImportantDegenerateDimension_OnFactDim]	/*DegenerateDimensionAttribute_ReplacementPoint|ImportantDegenerateDimension_OnFactDim|,*/
 ,
  [ImportantFact]	/*DimensionAttribute_ReplacementPoint|ImportantFact|,*/
 ,
