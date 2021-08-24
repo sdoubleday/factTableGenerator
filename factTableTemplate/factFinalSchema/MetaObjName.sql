@@ -6,7 +6,7 @@
 	,
 	 [ImportantDegenerateDimension_OnFactDim] NVARCHAR(500) NOT NULL CONSTRAINT [df_factFinalSchema_MetaObjName_ImportantDegenerateDimension_OnFactDim] DEFAULT ('Context Not Specified')	/*DegenerateDimensionAttribute_ReplacementPoint|ImportantDegenerateDimension_OnFactDim|,*/
 	,
-	 [ImportantFact] DECIMAL(38,10) NULL	/*FactColumn_ReplacementPoint|ImportantFact|,*/
+	 [ImportantFact] DECIMAL(38,10) NULL	/*DimensionAttribute_ReplacementPoint|ImportantFact|,*/
 	,
 	 [MetaObjNames] INT NOT NULL
 )

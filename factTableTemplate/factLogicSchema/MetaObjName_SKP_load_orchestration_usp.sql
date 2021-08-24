@@ -11,7 +11,7 @@ INSERT INTO [factFinalSchema].[MetaObjName]
 ,
  [ImportantDegenerateDimension_OnFactDim]	/*DegenerateDimensionAttribute_ReplacementPoint|ImportantDegenerateDimension_OnFactDim|,*/
 ,
- [ImportantFact]	/*FactColumn_ReplacementPoint|ImportantFact|,*/
+ [ImportantFact]	/*DimensionAttribute_ReplacementPoint|ImportantFact|,*/
 ,
  [MetaObjNames]
 )
