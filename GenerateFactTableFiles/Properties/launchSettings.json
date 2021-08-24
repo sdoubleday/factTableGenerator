@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GenerateFactTableFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\..\\..\\..\\factTableSource\\bin\\Debug\\factTableSource.dacpac ..\\..\\..\\..\\test DebugFinalSchema DebugLogicSchema"
+    }
+  }
+}

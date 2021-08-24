@@ -59,7 +59,8 @@
     <Folder Include="factSourceSchema" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="factSourceSchema\MetaObjName_SKP.sql" />
+    <Build Include="factSourceSchema\MetaObjName_SKP_tbl.sql" />
     <Build Include="factSourceSchema\factSourceSchema.sql" />
+    <Build Include="factSourceSchema\MetaObjName_SKP.sql" />
   </ItemGroup>
 </Project>

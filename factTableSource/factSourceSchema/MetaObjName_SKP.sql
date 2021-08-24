@@ -1,8 +1,4 @@
-﻿CREATE TABLE [factSourceSchema].[MetaObjName_SKP]
-(
-	 [SK_Date] INT NOT NULL
-	,[SK_Date_RP_RolePlay] INT NOT NULL
-	,[ImportantDegenerateDimension_OnFactDim] NVARCHAR(500) NOT NULL
-	,[ImportantFact] DECIMAL(38,10) NULL
-	,[MetaObjNames] INT NOT NULL
-)
+﻿CREATE VIEW [factSourceSchema].[MetaObjName_SKP]
+AS SELECT 
+[SK_Date], [SK_Date_RP_RolePlay], [ImportantDegenerateDimension_OnFactDim], [ImportantFact], [MetaObjNames]
+FROM [factSourceSchema].[MetaObjName_SKP_tbl];
