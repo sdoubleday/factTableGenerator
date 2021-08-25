@@ -14,7 +14,9 @@ INSERT INTO [DebugFinalSchema].[MetaObjName]
 [ImportantDegenerateDimension_OnFactDim]
 
 ,
- [ImportantFact]	/*FactColumn_ReplacementPoint|ImportantFact|,*/
+[ImportantFact]
+, [MetaObjNames]
+
 ,
  [MetaObjNames]
 )
@@ -33,4 +35,4 @@ SELECT
 
 ,
  [MetaObjNames]
-FROM [factSourceSchema].[MetaObjName_SKP];
+FROM [factfactSourceSchema].[MetaObjName_SKP];
