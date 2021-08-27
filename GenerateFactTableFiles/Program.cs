@@ -21,6 +21,8 @@ namespace GenerateSCDType6Files
 			List<StringReplacementPair> replacementPairs = new List<StringReplacementPair> {
 			new StringReplacementPair("factLogicSchema",parsedArgs.logicSchema)
 			,new StringReplacementPair("factFinalSchema",parsedArgs.finalSchema)
+			,new StringReplacementPair("dimensionRpFinalSchema","dimRp") //should be a variable
+			,new StringReplacementPair("dimensionFinalSchema","dim") //should be a variable
 				};
 			List<FilePathPair> filePathPairs = new List<FilePathPair> {
 			new FilePathPair(parsedArgs.LogicTemplatesDirectory,parsedArgs.OutputDirectory + "\\" + parsedArgs.logicSchema)
