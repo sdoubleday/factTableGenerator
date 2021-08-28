@@ -3,13 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>0.0.3</Version>
-    <PackageReleaseNotes>fix ImportantDegenerateDimension_OnFactDim tags and update STCEx to v2.2.2</PackageReleaseNotes>
+    <Version>0.0.4</Version>
+    <PackageReleaseNotes>update STCEx to v2.2.5</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="150.5084.2" />
-    <PackageReference Include="SqlTemplateColumnExpander" Version="2.2.4" />
+    <PackageReference Include="SqlTemplateColumnExpander" Version="2.2.5" />
   </ItemGroup>
 
   <ItemGroup>
